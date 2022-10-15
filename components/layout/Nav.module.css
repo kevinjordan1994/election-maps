@@ -1,7 +1,8 @@
 .nav {
   background-color: #c21010;
   padding: 20px 5%;
-  text-align: center;
+  text-align: right;
+  min-height: 5%;
 }
 
 .select {

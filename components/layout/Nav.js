@@ -6,7 +6,11 @@ export default function Nav(props) {
   const selectRef = useRef();
 
   const selectOptions = dummyWidgetOptions.map((option) => {
-    return <option className={styles.option}>{option}</option>;
+    return (
+      <option key={option} className={styles.option}>
+        {option}
+      </option>
+    );
   });
 
   const changeSelectedMapHandler = () => {

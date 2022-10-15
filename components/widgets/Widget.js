@@ -1,10 +1,10 @@
 import { widgets } from "./Widgets";
+import styles from "./Widget.module.css";
 
 export default function Widget() {
   return (
     <>
-      <h1>{widgets[0].title}</h1>
-      <div>
+      <section className={styles.widget_container}>
         <iframe
           className="ap-embed"
           src={widgets[0].widget}
@@ -17,7 +17,7 @@ export default function Widget() {
           defer
           src="https://interactives.ap.org/election-results/assets/microsite/resizeClient.js"
         ></script>
-      </div>
+      </section>
     </>
   );
 }

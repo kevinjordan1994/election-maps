@@ -6,22 +6,8 @@ export const widgets = [
   },
   {
     title: "Senate",
-    widget: (
-      <>
-        <iframe
-          class="ap-embed"
-          src="https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/4025.html"
-          width="100%"
-          frameborder="0"
-          scrolling="no"
-          marginheight="100%"
-        ></iframe>
-        <script
-          defer
-          src="https://interactives.ap.org/election-results/assets/microsite/resizeClient.js"
-        ></script>
-      </>
-    ),
+    widget:
+      "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/4025.html",
   },
 ];
 
