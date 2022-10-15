@@ -1,11 +1,16 @@
 import { useRef } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { mapsActions } from "../../store/maps";
 import styles from "./Nav.module.css";
 
 export default function Nav(props) {
-  const dummyWidgetOptions = [`Governor`, `Senate`, `House`];
+  const mapTitles = useSelector((state) => state.maps.maps).map(
+    (map) => map.title
+  );
   const selectRef = useRef();
+  const dispatch = useDispatch();
 
-  const selectOptions = dummyWidgetOptions.map((option) => {
+  const selectOptions = mapTitles.map((option) => {
     return (
       <option key={option} className={styles.option}>
         {option}
@@ -14,7 +19,7 @@ export default function Nav(props) {
   });
 
   const changeSelectedMapHandler = () => {
-    console.log(selectRef.current.value);
+    dispatch(mapsActions.selectMap(selectRef.current.value));
   };
 
   return (
