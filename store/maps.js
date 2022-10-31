@@ -13,6 +13,11 @@ const initialState = {
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/4025.html",
     },
     {
+      title: "National Senate",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/5730.html",
+    },
+    {
       title: "Amendment 1",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/4230.html",
