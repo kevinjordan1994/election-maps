@@ -20,8 +20,5 @@ async function fetchElectionData() {
 }
 
 export default function Home() {
-  useEffect(() => {
-    fetchElectionData();
-  }, []);
   return <Widget />;
 }
