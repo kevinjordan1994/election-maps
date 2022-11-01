@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import Widget from "../components/widgets/Widget";
+import SideBar from "../components/layout/SideBar";
+import Grid from "../components/layout/Grid";
 
 const API_KEY = `rhoi8luXdqzFhrksISIpgW1MUB14Vmli`;
 
@@ -20,5 +22,12 @@ async function fetchElectionData() {
 }
 
 export default function Home() {
-  return <Widget />;
+  return (
+    <Grid>
+      <div>
+        <Widget />
+      </div>
+      <SideBar />
+    </Grid>
+  );
 }
