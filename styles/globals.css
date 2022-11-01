@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Proxima Nova", sans-serif;
+  /* touch-action: pan-x pan-y; */
 }
 
 a {
@@ -18,8 +19,14 @@ a {
   box-sizing: border-box;
 }
 
-.widget {
+iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 100%;
+  width: 100%;
 }
 
 @media (prefers-color-scheme: dark) {

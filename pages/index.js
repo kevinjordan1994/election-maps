@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import Widget from "../components/widgets/Widget";
+import WidgetBox from "../components/widgets/WidgetBox";
 import SideBar from "../components/layout/SideBar";
 import Grid from "../components/layout/Grid";
 
@@ -24,9 +23,7 @@ async function fetchElectionData() {
 export default function Home() {
   return (
     <Grid>
-      <div>
-        <Widget />
-      </div>
+      <WidgetBox />
       <SideBar />
     </Grid>
   );
