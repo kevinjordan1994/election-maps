@@ -1,0 +1,26 @@
+.sidebar {
+  background-color: #bf0a30;
+  color: white;
+  width: fit-content;
+  padding: 3%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  touch-action: none;
+  overflow-y: scroll;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.sidebar ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover,
+.sidebar ul li:active {
+  text-decoration: underline;
+  font-weight: bold;
+}
