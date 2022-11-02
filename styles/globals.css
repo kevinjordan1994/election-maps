@@ -33,6 +33,9 @@ iframe {
   transform-origin: 0 0;
 }
 
+.map {
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

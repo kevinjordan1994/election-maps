@@ -224,16 +224,34 @@ const initialState = {
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6727.html",
     },
     {
-      title: "GA House D1",
-      keyword: "Georgia",
-      widget:
-        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6728.html",
-    },
-    {
       title: "GA Ballot Measure 1",
       keyword: "Georgia",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6730.html",
+    },
+    {
+      title: "GA Ballot Measure 2",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6842.html",
+    },
+    {
+      title: "GA Referendum A",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6843.html",
+    },
+    {
+      title: "GA Referendum B",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6844.html",
+    },
+    {
+      title: "GA House D1",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6728.html",
     },
   ],
   selectedMap: {

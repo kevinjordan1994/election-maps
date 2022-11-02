@@ -14,10 +14,10 @@ export default function Widget() {
 
   const widget = (
     <>
-      <ZoomButton onZoom={changeWidgetScale} />
+      {/* <ZoomButton onZoom={changeWidgetScale} /> */}
       <section className={styles.widget_container}>
         <iframe
-          className={`ap-embed`}
+          className="ap-embed map"
           style={{ transform: `scale(${zoomAmount / 100})` }}
           src={selectedMap.widget}
           width="100%"

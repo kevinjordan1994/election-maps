@@ -2,10 +2,16 @@
   overflow: scroll;
   height: 75%;
   position: relative;
-  touch-action: pinch-zoom;
+  padding: 5%;
 }
 
 .top {
   position: relative;
   height: 25%;
+}
+
+.bottom {
+  height: 200px;
+  position: absolute;
+  bottom: 0;
 }
