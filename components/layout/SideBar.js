@@ -24,6 +24,7 @@ export default function SideBar(props) {
 
   function changeMapHandler(e) {
     dispatch(mapsActions.selectMap(e.target.textContent));
+    dispatch(mapsActions.resetZoomLevel());
   }
 
   return (

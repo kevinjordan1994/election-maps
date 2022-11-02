@@ -1,14 +1,16 @@
 import { useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { mapsActions } from "../../store/maps";
 import styles from "./Widget.module.css";
 import ZoomButton from "./ZoomButton";
 
 export default function Widget() {
   const selectedMap = useSelector((state) => state.maps.selectedMap);
-  const [zoomAmount, setZoomAmount] = useState(1);
+  const zoomAmount = useSelector((state) => state.maps.zoomLevel);
+  const dispatch = useDispatch();
 
   const changeWidgetScale = (amount) => {
-    setZoomAmount(+amount / 100);
+    dispatch(mapsActions.setZoomLevel(+amount));
   };
 
   const widget = (
@@ -17,7 +19,7 @@ export default function Widget() {
       <section className={styles.widget_container}>
         <iframe
           className={`ap-embed`}
-          style={{ transform: `scale(${zoomAmount})` }}
+          style={{ transform: `scale(${zoomAmount / 100})` }}
           src={selectedMap.widget}
           width="100%"
           frameBorder="0"

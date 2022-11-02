@@ -26,7 +26,6 @@ export default function Home() {
     <Grid>
       <WidgetBox />
       <SidebarBox />
-      <Title />
     </Grid>
   );
 }

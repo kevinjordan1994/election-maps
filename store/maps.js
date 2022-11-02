@@ -214,6 +214,7 @@ const initialState = {
       "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/4185.html",
   },
   filterKeyword: "Florida",
+  zoomLevel: "100",
 };
 
 const mapsSlice = createSlice({
@@ -227,6 +228,12 @@ const mapsSlice = createSlice({
     },
     setFilterKeyword(state, action) {
       state.filterKeyword = action.payload;
+    },
+    setZoomLevel(state, action) {
+      state.zoomLevel = action.payload;
+    },
+    resetZoomLevel(state) {
+      state.zoomLevel = "100";
     },
   },
 });
