@@ -9,12 +9,12 @@ export default function SideBar(props) {
 
   const mapLinks = props.maps.map((map) => {
     return (
-      <>
-        <li key={map.title} onClick={changeMapHandler}>
+      <div key={map.title}>
+        <li onClick={changeMapHandler}>
           <a>{map.title}</a>
         </li>
         <div className={styles.map_link_container}></div>
-      </>
+      </div>
     );
   });
 

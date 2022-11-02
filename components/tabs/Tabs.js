@@ -10,7 +10,11 @@ export default function Tabs() {
 
   const tabElements = tabs.map((tab) => {
     const classes = tab === keyword ? styles.active_tab : "";
-    return <p className={classes}>{tab}</p>;
+    return (
+      <p key={tab} className={classes}>
+        {tab}
+      </p>
+    );
   });
 
   const changeTabsHandler = (e) => {
