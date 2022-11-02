@@ -4,3 +4,8 @@
   position: relative;
   touch-action: pinch-zoom;
 }
+
+.top {
+  position: relative;
+  height: 25%;
+}

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { mapsActions } from "../../store/maps";
 import styles from "./Widget.module.css";
@@ -34,5 +33,5 @@ export default function Widget() {
     </>
   );
 
-  return widget;
+  return <>{widget}</>;
 }
