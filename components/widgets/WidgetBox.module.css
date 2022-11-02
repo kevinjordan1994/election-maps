@@ -1,10 +1,6 @@
 .box {
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: scroll;
   height: 100%;
   position: relative;
+  touch-action: pinch-zoom;
 }
-
-/* .map{
-
-} */
