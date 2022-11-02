@@ -9,12 +9,15 @@ export default function SideBar(props) {
 
   const mapLinks = props.maps.map((map) => {
     return (
-      <div key={map.title}>
-        <li onClick={changeMapHandler}>
+      <>
+        <li key={map.title} onClick={changeMapHandler}>
           <a>{map.title}</a>
         </li>
-        <div className={styles.map_link_container}></div>
-      </div>
+        <div
+          key={map.title + "underline"}
+          className={styles.map_link_container}
+        ></div>
+      </>
     );
   });
 
