@@ -1,0 +1,8 @@
+.button {
+  position: fixed;
+  z-index: 10;
+  bottom: 21%;
+  right: 28%;
+  height: 20rem;
+  -webkit-appearance: slider-vertical;
+}

@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { mapsActions } from "../../store/maps";
@@ -9,7 +10,7 @@ export default function SideBar(props) {
 
   const mapLinks = props.maps.map((map) => {
     return (
-      <>
+      <Fragment key={map.title + "key"}>
         <li key={map.title} onClick={changeMapHandler}>
           <a>{map.title}</a>
         </li>
@@ -17,7 +18,7 @@ export default function SideBar(props) {
           key={map.title + "underline"}
           className={styles.map_link_container}
         ></div>
-      </>
+      </Fragment>
     );
   });
 

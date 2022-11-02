@@ -184,9 +184,27 @@ const initialState = {
     },
     {
       title: "GA Governor",
-      keyword: "Florida",
+      keyword: "Georgia",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6726.html",
+    },
+    {
+      title: "GA Senate",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6727.html",
+    },
+    {
+      title: "GA House D1",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6728.html",
+    },
+    {
+      title: "GA Ballot Measure 1",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6730.html",
     },
   ],
   selectedMap: {
