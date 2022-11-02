@@ -14,7 +14,7 @@ export default function Widget() {
 
   const widget = (
     <>
-      {/* <ZoomButton onZoom={changeWidgetScale} /> */}
+      <ZoomButton onZoom={changeWidgetScale} />
       <section className={styles.widget_container}>
         <iframe
           className="ap-embed map"
