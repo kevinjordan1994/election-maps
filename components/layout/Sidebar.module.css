@@ -2,13 +2,14 @@
   background: radial-gradient(ellipse at 150%, #007ac7, #002e94);
   color: white;
   width: 100%;
+  right: 0;
   padding: 2%;
   text-align: center;
   height: 100vh;
-  touch-action: none;
   overflow-y: scroll;
   font-size: 1.5rem;
   line-height: 1.7;
+  touch-action: pan-y;
 }
 
 .sidebar ul {

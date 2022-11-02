@@ -1,6 +1,6 @@
 import WidgetBox from "../components/widgets/WidgetBox";
-import SideBar from "../components/layout/SideBar";
 import Grid from "../components/layout/Grid";
+import SidebarBox from "../components/layout/SidebarBox";
 
 const API_KEY = `rhoi8luXdqzFhrksISIpgW1MUB14Vmli`;
 
@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <Grid>
       <WidgetBox />
-      <SideBar />
+      <SidebarBox />
     </Grid>
   );
 }
