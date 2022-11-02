@@ -4,11 +4,10 @@ import { mapsActions } from "../../store/maps";
 import styles from "./Sidebar.module.css";
 
 export default function SideBar(props) {
-  const maps = useSelector((state) => state.maps.maps);
   const dispatch = useDispatch();
   const activeMap = useSelector((state) => state.maps.selectedMap);
 
-  const mapLinks = maps.map((map) => {
+  const mapLinks = props.maps.map((map) => {
     return (
       <>
         <li key={map.title} onClick={changeMapHandler}>
