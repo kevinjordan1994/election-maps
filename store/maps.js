@@ -21,6 +21,7 @@ const initialState = {
       keyword: "National",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/5730.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6875.html",
     },
     {
       title: "Amendment 1",
@@ -230,6 +231,7 @@ const initialState = {
       keyword: "Georgia",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6727.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6878.html",
     },
     {
       title: "GA Ballot Measure 1",
@@ -298,6 +300,62 @@ const initialState = {
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6903.html",
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6894.html",
+    },
+    {
+      title: "GA House D7",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6904.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6890.html",
+    },
+    {
+      title: "GA House D8",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6905.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6891.html",
+    },
+    {
+      title: "GA House D9",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6906.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6895.html",
+    },
+    {
+      title: "GA House D10",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6907.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6896.html",
+    },
+    {
+      title: "GA House D11",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6909.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6892.html",
+    },
+    {
+      title: "GA House D12",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6911.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6897.html",
+    },
+    {
+      title: "GA House D13",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6912.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6898.html",
+    },
+    {
+      title: "GA House D14",
+      keyword: "Georgia",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6913.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6899.html",
     },
   ],
   selectedMap: {
