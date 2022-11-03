@@ -9,8 +9,13 @@
   height: 25%;
 }
 
-.bottom {
-  height: 200px;
-  position: absolute;
-  bottom: 0;
+/* .voting_box {
+  height: 60%;
+  position: relative;
+  overflow: scroll;
 }
+
+.voting_top {
+  position: relative;
+  height: 40%;
+} */

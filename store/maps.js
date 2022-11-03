@@ -373,14 +373,14 @@ const initialState = {
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6923.html",
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6921.html",
     },
-    {
-      title: "Early Voting Numbers",
-      keyword: "National",
-      florida:
-        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6916.html",
-      georgia:
-        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6918.html",
-    },
+    // {
+    //   title: "Early Voting Numbers",
+    //   keyword: "National",
+    //   florida:
+    //     "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6916.html",
+    //   georgia:
+    //     "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6918.html",
+    // },
   ],
   selectedMap: {
     title: "Governor",
