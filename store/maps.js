@@ -10,7 +10,7 @@ const initialState = {
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6801.html",
     },
     {
-      title: "Senate",
+      title: "U.S. Senate",
       keyword: "Florida",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/4025.html",
@@ -220,7 +220,7 @@ const initialState = {
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6876.html",
     },
     {
-      title: "Senate ",
+      title: "U.S. Senate ",
       keyword: "Georgia",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6727.html",
@@ -353,14 +353,14 @@ const initialState = {
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6899.html",
     },
     {
-      title: "Senate Balance of Power",
+      title: "U.S. Senate Balance of Power",
       keyword: "National",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/5730.html",
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6875.html",
     },
     {
-      title: "House Balance of Power",
+      title: "U.S. House Balance of Power",
       keyword: "National",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6923.html",
