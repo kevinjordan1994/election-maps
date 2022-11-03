@@ -9,6 +9,7 @@ export default function SideBar(props) {
   const activeMap = useSelector((state) => state.maps.selectedMap);
 
   const mapLinks = props.maps.map((map) => {
+    // const mapName = map.keyword === "Georgia" ? map.title.slice(2) : map.title;
     return (
       <Fragment key={map.title + "key"}>
         <li key={map.title} onClick={changeMapHandler}>
