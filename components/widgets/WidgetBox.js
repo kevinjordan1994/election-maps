@@ -12,7 +12,7 @@ export default function WidgetBox() {
   // const boxClass = selectedMap.florida ? styles.voting_box : styles.box;
 
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.top}>{<TopBar />}</div>
       <div className={styles.box}>{<Widget />}</div>
     </div>

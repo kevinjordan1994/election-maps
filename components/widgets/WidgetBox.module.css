@@ -1,12 +1,17 @@
 .box {
   overflow: scroll;
-  height: 75%;
+  /* height: 75%; */
   position: relative;
 }
 
 .top {
   position: relative;
-  height: 25%;
+  /* height: 25%; */
+}
+
+.container {
+  max-height: 100vh;
+  overflow: auto;
 }
 
 /* .voting_box {
