@@ -353,25 +353,25 @@ const initialState = {
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6899.html",
     },
     {
-      title: "National Governors",
-      keyword: "National",
-      widget:
-        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6927.html",
-      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6925.html",
-    },
-    {
-      title: "National Senate",
+      title: "Senate Balance of Power",
       keyword: "National",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/5730.html",
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6875.html",
     },
     {
-      title: "National House",
+      title: "House Balance of Power",
       keyword: "National",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6923.html",
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6921.html",
+    },
+    {
+      title: "Governors Balance of Power",
+      keyword: "National",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6927.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6925.html",
     },
   ],
   selectedMap: {
