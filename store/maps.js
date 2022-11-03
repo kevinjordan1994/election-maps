@@ -17,13 +17,6 @@ const initialState = {
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6803.html",
     },
     {
-      title: "National Senate",
-      keyword: "National",
-      widget:
-        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/5730.html",
-      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6875.html",
-    },
-    {
       title: "Amendment 1",
       keyword: "Florida",
       widget:
@@ -252,12 +245,14 @@ const initialState = {
       keyword: "Georgia",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6843.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6880.html",
     },
     {
       title: "GA Referendum B",
       keyword: "Georgia",
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6844.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6881.html",
     },
     {
       title: "GA House D1",
@@ -356,6 +351,27 @@ const initialState = {
       widget:
         "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6913.html",
       bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6899.html",
+    },
+    {
+      title: "National Governors",
+      keyword: "National",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6927.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6925.html",
+    },
+    {
+      title: "National Senate",
+      keyword: "National",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/5730.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6875.html",
+    },
+    {
+      title: "National House",
+      keyword: "National",
+      widget:
+        "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6923.html",
+      bar: "https://interactives.ap.org/election-results/customers/layouts/organization-layouts/published/77365/6921.html",
     },
   ],
   selectedMap: {
